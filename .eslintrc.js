@@ -6,17 +6,11 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/recommended',
-    'plugin:react/recommended',
     'plugin:import/typescript',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
-  plugins: ['simple-import-sort', 'react'],
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
+  plugins: ['simple-import-sort'],
   env: {
     es6: true,
     node: true,
